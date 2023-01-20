@@ -8,7 +8,7 @@ const getAccordionItem = (title,id) =>{
       ${title}
       </button>
     </h2>
-    <div id="collapse${id}" class="collapse" data-bs-parent="#accordionId" aria-labelledby="heading${id}">
+    <div id="collapse${id}" class="collapse" data-bs-parent="accordionId" aria-labelledby="heading${id}">
       </div>
     </div>
     `;
